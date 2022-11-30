@@ -112,7 +112,7 @@ async def start_command(client: Client, message: Message):
 
 WAIT_MSG = """"<b>Processing ...</b>"""
 
-REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
+REPLY_ERROR = """<code>Use this command as a reply to any telegram message with out any spaces.</code>"""
 
 #=====================================================================================##
 
@@ -123,7 +123,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴'𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻",
                 url = client.invitelink)
         ]
     ]
